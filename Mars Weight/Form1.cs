@@ -73,13 +73,13 @@ namespace Mars_Weight
                 errorMessage = null;
                 name = text;
 
-                if (String.IsNullOrEmpty(text)) 
+                if (String.IsNullOrEmpty(text)) // if statement checks for blank or empty field in the textbox
                 {
                     errorMessage = "Can't be empty";
                     return false;
                 }
 
-                if(text.Length < 2) 
+                if(text.Length < 2) // if statement screens out field with less than two characters and displays error message
                 {
                     errorMessage = "Enter at least 2 letters";
                     return false;

@@ -41,9 +41,9 @@
             // 
             // txtWeightOnEarth
             // 
-            this.txtWeightOnEarth.Location = new System.Drawing.Point(159, 85);
+            this.txtWeightOnEarth.Location = new System.Drawing.Point(198, 85);
             this.txtWeightOnEarth.Name = "txtWeightOnEarth";
-            this.txtWeightOnEarth.Size = new System.Drawing.Size(228, 22);
+            this.txtWeightOnEarth.Size = new System.Drawing.Size(189, 22);
             this.txtWeightOnEarth.TabIndex = 0;
             // 
             // lblEarth
@@ -64,17 +64,17 @@
             // 
             // txtWeightMars
             // 
-            this.txtWeightMars.Location = new System.Drawing.Point(159, 125);
+            this.txtWeightMars.Location = new System.Drawing.Point(198, 125);
             this.txtWeightMars.Name = "txtWeightMars";
             this.txtWeightMars.ReadOnly = true;
-            this.txtWeightMars.Size = new System.Drawing.Size(228, 22);
+            this.txtWeightMars.Size = new System.Drawing.Size(189, 22);
             this.txtWeightMars.TabIndex = 3;
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(159, 195);
+            this.btnCalculate.Location = new System.Drawing.Point(198, 203);
             this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(75, 23);
+            this.btnCalculate.Size = new System.Drawing.Size(111, 23);
             this.btnCalculate.TabIndex = 4;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
@@ -91,10 +91,10 @@
             // 
             // txtObject
             // 
-            this.txtObject.Location = new System.Drawing.Point(159, 40);
+            this.txtObject.Location = new System.Drawing.Point(198, 40);
             this.txtObject.MaxLength = 50;
             this.txtObject.Name = "txtObject";
-            this.txtObject.Size = new System.Drawing.Size(228, 22);
+            this.txtObject.Size = new System.Drawing.Size(189, 22);
             this.txtObject.TabIndex = 6;
             // 
             // pictureBox1
