@@ -35,19 +35,20 @@
             this.btnCalculate = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.txtObject = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtWeightOnEarth
             // 
-            this.txtWeightOnEarth.Location = new System.Drawing.Point(209, 85);
+            this.txtWeightOnEarth.Location = new System.Drawing.Point(159, 85);
             this.txtWeightOnEarth.Name = "txtWeightOnEarth";
-            this.txtWeightOnEarth.Size = new System.Drawing.Size(178, 22);
+            this.txtWeightOnEarth.Size = new System.Drawing.Size(228, 22);
             this.txtWeightOnEarth.TabIndex = 0;
             // 
             // lblEarth
             // 
-            this.lblEarth.AutoSize = true;
-            this.lblEarth.Location = new System.Drawing.Point(42, 90);
+            this.lblEarth.Location = new System.Drawing.Point(22, 90);
             this.lblEarth.Name = "lblEarth";
             this.lblEarth.Size = new System.Drawing.Size(110, 17);
             this.lblEarth.TabIndex = 1;
@@ -55,8 +56,7 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(45, 120);
+            this.label1.Location = new System.Drawing.Point(25, 130);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(107, 17);
             this.label1.TabIndex = 2;
@@ -64,15 +64,15 @@
             // 
             // txtWeightMars
             // 
-            this.txtWeightMars.Location = new System.Drawing.Point(209, 120);
+            this.txtWeightMars.Location = new System.Drawing.Point(159, 125);
             this.txtWeightMars.Name = "txtWeightMars";
             this.txtWeightMars.ReadOnly = true;
-            this.txtWeightMars.Size = new System.Drawing.Size(178, 22);
+            this.txtWeightMars.Size = new System.Drawing.Size(228, 22);
             this.txtWeightMars.TabIndex = 3;
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(110, 167);
+            this.btnCalculate.Location = new System.Drawing.Point(159, 195);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(75, 23);
             this.btnCalculate.TabIndex = 4;
@@ -82,7 +82,7 @@
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(45, 38);
+            this.label2.Location = new System.Drawing.Point(22, 40);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(107, 24);
             this.label2.TabIndex = 5;
@@ -91,11 +91,21 @@
             // 
             // txtObject
             // 
-            this.txtObject.Location = new System.Drawing.Point(209, 40);
+            this.txtObject.Location = new System.Drawing.Point(159, 40);
             this.txtObject.MaxLength = 50;
             this.txtObject.Name = "txtObject";
-            this.txtObject.Size = new System.Drawing.Size(178, 22);
+            this.txtObject.Size = new System.Drawing.Size(228, 22);
             this.txtObject.TabIndex = 6;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::Mars_Weight.Properties.Resources._678501main_pia16078_full_full;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(437, 262);
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
@@ -109,8 +119,11 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblEarth);
             this.Controls.Add(this.txtWeightOnEarth);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Mars Weight";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -125,6 +138,7 @@
         private System.Windows.Forms.Button btnCalculate;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtObject;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
